@@ -1,0 +1,53 @@
+:root {
+  --yellow: #FFD600;
+  --blue: #0066FF; }
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url(../fonts/SFProDisplay-Regular.ttf), url(../fonts/SFProDisplay-Regular.woff), url(../fonts/SFProDisplay-Regular.woff2); }
+@font-face {
+  font-family: "Gotham Pro";
+  src: url(../fonts/GothamPro-Bold.ttf), url(../fonts/GothamPro-Bold.woff), url(../fonts/GothamPro-Bold.woff2); }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "SF Pro Display";
+  background-color: #E5E5E5; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+img {
+  margin: 0;
+  padding: 0; }
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: 0.4s; }
+
+a:hover,
+button:hover {
+  opacity: 0.7; }
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  transition: 0.3s; }
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+/*# sourceMappingURL=style.css.map */
